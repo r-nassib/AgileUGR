@@ -30,7 +30,7 @@ print("Reordenando de manera aleatoria...")
 random.shuffle(image_files)
 print("\tLista reordenada.")
 
-print("Calculando tamaño de cada conjunto...\n 70% Entrenamiento.\n 15% Validacion.\n (15%) Resto para Testeo...")
+print("Calculando tamaño de cada conjunto...\n 70% Entrenamiento.\n 15% Validacion.\n (15%) Resto para Testear...")
 # Se calcula el tamaño de cada conjunto 
 train_size = int(len(image_files) * 0.7)
 val_size = int(len(image_files) * 0.15)
